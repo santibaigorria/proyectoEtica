@@ -1,10 +1,76 @@
-header{
-    background-color: #6f1d1b ;
-}
-body{
-    background-color: #bb9457;
+body {
+    font: black;
 }
 
-footer{
-    background-color: #99582a;
+h1,
+h4{
+    font-family: 'Cardo', serif;
+}
+
+h2,
+h3,
+h5 {
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+p {
+    font-family: 'Prompt', sans-serif;
+}
+
+header {
+    background-color: #1c110a;
+    color: white;
+}
+
+body {
+    background-image: url(/assets/bg.jpg);
+}
+
+hr {
+    border: 2px solid black;
+}
+
+.fotoRosa,
+.fotoRosa2,
+.fotoFlor,
+.fotoFlor2 {
+    width: auto;
+    height: 20vh;
+}
+
+.videoRosa {
+    border-radius: 5px;
+    width: 380px;
+    height: 200px;
+}
+
+.boton {
+    background-color: #1c110a;
+    color: white;
+}
+
+.carrusel {
+    border-radius: 5px;
+}
+
+footer {
+    background-color: grey;
+}
+
+/* Animaciones */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }

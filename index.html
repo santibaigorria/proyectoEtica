@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Mukta+Vaani:wght@800&family=Prompt:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Trabajo Ética</title>
@@ -19,75 +24,148 @@
         <div class="container-fluid">
             <div class="row mt-3">
                 <h2 class="text-center">Rosalind Franklin</h2>
-                <div class="col-6 d-flex justify-content-center"><img src="https://via.placeholder.com/150" alt="">
+                <div class="col-6 d-flex justify-content-center"><img src="/assets/rosalind1.jpeg" alt=""
+                        class="fotoRosa hvr-grow">
                 </div>
-                <div class="col-6 d-flex justify-content-center"><img src="https://via.placeholder.com/150" alt="">
+                <div class="col-6  d-flex justify-content-center"><img src="/assets/rosalind2.jpeg" alt=""
+                        class="fotoRosa2 hvr-grow">
                 </div>
             </div>
             <h3 class="text-center mt-3">Introducción</h3>
             <div class="col-12">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquam voluptates optio earum officia
-                    repudiandae debitis pariatur quaerat cupiditate ipsa rem blanditiis quas ducimus, enim a inventore
-                    assumenda maiores recusandae.</p>
+                <p>Hoy, en medio de la pandemia que nos asola, su efeméride también sirve para recordarnos que su legado
+                    no empieza y acaba en los rayos X y el ADN, pues fue también una gran experta en el estudio de los
+                    virus que causan las enfermedades de las plantas y de las personas.</p>
+            </div>
+            <div class="col-12" data-aos="flip-down">
+                <iframe src="https://www.youtube.com/embed/-kyXya6hS28" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="videoRosa d-flex justify-content-center"></iframe>
             </div>
 
-            <button type="button" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Quiero saber más!
+            <button type="button" class="btn my-2 boton" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Conocer más!
             </button>
 
             <!-- Modal -->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                 aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                            <h5 class="modal-title" id="staticBackdropLabel">Rosalind...</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis soluta corrupti, culpa voluptatibus, alias non dolorem sed nam incidunt atque cumque fugit qui eligendi quasi sit? Itaque ipsum minus labore.
+                            <p>
+                                En la década de los 50 dedicó varios años de su vida al uso de los rayos X para
+                                determinar la estructura del ARN en el virus mosaico del tabaco, que destruye sus
+                                plantaciones, y, en 1957 estudió también el virus que causa la polio, una enfermedad muy
+                                temida entonces. Ella, sus colaboradores y los científicos de hoy podemos usar técnicas
+                                como la secuenciación del ADN o la cristalografía de rayos X para investigar coronavirus
+                                como el SARS-CoV-2.
+
+                            </p>
+                            <p> 
+                                Y ahí tampoco acaba su valioso legado, pues al principio de su carrera, en la década de
+                                1940, ayudó también a determinar la densidad, estructura y composición del coque, fósil
+                                de carbón, lo que permitió un eficiente uso del mismo como combustible y, no menos
+                                importante, usarlo, por su porosidad, como componente de las máscaras de gas que
+                                salvaron muchas vidas durante la segunda guerra mundial.
+
+                            </p>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Understood</button>
+                            <button type="button" class="btn boton" data-bs-dismiss="modal">Cerrar</button>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <hr>
+
+            <!-- Carrusel -->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-aos="flip-up">
+                <div class="carousel-inner carrusel">
+                    <div class="carousel-item active">
+                        <img src="/assets/florenCarrusel1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/florenCarrusel2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/rosaCarrusel1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/rosaCarrusel2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
             <div class="row mt-3">
                 <h2 class="text-center">Florence Bell</h2>
-                <div class="col-6 d-flex justify-content-center"><img src="https://via.placeholder.com/150" alt="">
+                <div class="col-6 d-flex justify-content-center"><img src="/assets/florence1.jpeg" alt=""
+                        class="fotoFlor hvr-grow">
                 </div>
-                <div class="col-6 d-flex justify-content-center"><img src="https://via.placeholder.com/150" alt="">
+                <div class="col-6 d-flex justify-content-center"><img src="https://via.placeholder.com/150" alt=""
+                        class="fotoFlor2 hvr-grow">
                 </div>
             </div>
             <h3 class="text-center mt-3">Introducción</h3>
             <div class="col-12">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquam voluptates optio earum officia
-                    repudiandae debitis pariatur quaerat cupiditate ipsa rem blanditiis quas ducimus, enim a inventore
-                    assumenda maiores recusandae.</p>
+                <p>Lo que ni los escritores a los que se les ocurrió el titular "Mujer científica explica" ni sus
+                    lectores podrían haber sabido es que, en el curso de su investigación de doctorado, esta científica
+                    en particular había sentado silenciosamente las bases de uno de los hitos más importantes de la
+                    ciencia del siglo XX: el descubrimiento de la estructura del ADN.</p>
             </div>
 
-            <button type="button" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Quiero saber más!
+            <button type="button" class="btn boton my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Conocer más!
             </button>
 
             <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            <div class="modal fade modal2" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                 aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-dialog-scrollable">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                            <h5 class="modal-title" id="staticBackdropLabel">Florence...</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis soluta corrupti, culpa voluptatibus, alias non dolorem sed nam incidunt atque cumque fugit qui eligendi quasi sit? Itaque ipsum minus labore.
+                            <p>
+                            Con capítulos que describen la estructura de las fibras proteicas en las medusas, las aletas
+                            de tiburón y el cabello, la tesis doctoral de Bell podría parecer un hito improbable en
+                            biología.
+                            </p>
+                            <p>
+                            Bell, quien nació en 1913 en Londres, formaba parte del creciente número de alumnas que
+                            estudiaban ciencias naturales en el Girton College de la Universidad de Cambridge.
+                            </p>
+                            <p>    
+                            Después de dejar Cambridge en 1936, Bell pasó por primera vez un breve período en Mánchester
+                            con Lawrence Bragg, quien, junto con su padre William, había recibido el Premio Nobel de
+                            Física en 1915.
+                            </p>
+                            <p>
+                            La pareja había demostrado cómo se podían usar los rayos X para revelar la disposición de
+                            los átomos y las moléculas en cristales simples como la sal.
+                            </p>
+                            <p>
+                            En 1937, Bell se trasladó a la Universidad de Leeds para ocupar un puesto como asistente de
+                            investigación con el físico William Astbury, que estaba aplicando los métodos de Bragg al
+                            estudio de la lana y otras fibras biológicas.
+                            </p>
+                            <p>
+                            Los estudios de rayos X de Astbury de las proteínas en las fibras de lana revelaron que su
+                            estructura era como una cadena molecular, o collar, formada al unir sustancias químicas más
+                            pequeñas llamadas aminoácidos.
+                            </p>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Understood</button>
+                            <button type="button" class="btn boton" data-bs-dismiss="modal">Cerrar</button>
                         </div>
                     </div>
                 </div>
@@ -95,9 +173,11 @@
         </div>
     </main>
     <footer>
-        Hehco por:
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, nulla ex numquam iusto optio quae dolores
-        adipisci, neque, repudiandae vel quam assumenda earum. Eveniet dolorem ex ratione error ipsum nisi!
+        <h4 class="text-center">Hecho por</h4>
+        <p class="text-center">
+            Baigorria Santiago - Lautaro Torti
+        </p>
+        <p class="text-center">Diseñado por Lautaro - Programado por Santiago.</p>
     </footer>
     <!-- Scripts -->
     <script src="./js/bootstrap.min.js"></script>
