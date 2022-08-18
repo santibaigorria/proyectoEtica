@@ -21,7 +21,63 @@
         <h1 class="text-center">Mujeres Genio</h1>
     </header>
     <main>
-        <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">ADN</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                ¿Qué es?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                El ADN, o ácido desoxirribonucleico, es el material que contiene la información
+                                hereditaria en los humanos y casi todos los demás organismos. Casi todas las células del
+                                cuerpo de una persona tienen el mismo ADN.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                ¿Dónde se encuentra?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                ADN se encuentra dentro de un área compartimentalizada dentro de la célula llamada
+                                núcleo. Debido a que la célula es muy pequeña, y porque los organismos tienen muchas
+                                moléculas de ADN por célula, cada molécula de ADN debe estar empaquetada de forma muy
+                                compacta y precisa.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                ¿Para qué sirve?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                El ácido desoxirribonucleico, o ADN, codifica la información que las células necesitan
+                                para producir proteínas. Un tipo relacionado de ácidos nucleicos, denominado ácido
+                                ribonucleico (ARN) se presenta en diferentes formas moleculares que cumplen funciones
+                                celulares múltiples, que incluyen la síntesis proteica.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="row mt-3">
                 <h2 class="text-center">Rosalind Franklin</h2>
                 <div class="col-6 d-flex justify-content-center"><img src="/assets/rosalind1.jpeg" alt=""
@@ -66,7 +122,7 @@
                                 como el SARS-CoV-2.
 
                             </p>
-                            <p> 
+                            <p>
                                 Y ahí tampoco acaba su valioso legado, pues al principio de su carrera, en la década de
                                 1940, ayudó también a determinar la densidad, estructura y composición del coque, fósil
                                 de carbón, lo que permitió un eficiente uso del mismo como combustible y, no menos
@@ -121,55 +177,53 @@
                     ciencia del siglo XX: el descubrimiento de la estructura del ADN.</p>
             </div>
 
-            <button type="button" class="btn boton my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Conocer más!
-            </button>
+            <div class="my-2">
+                <p>
+                    <button class="btn boton" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Quiero saber más!
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
 
-            <!-- Modal -->
-            <div class="modal fade modal2" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-                aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-scrollable">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">Florence...</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p>
-                            Con capítulos que describen la estructura de las fibras proteicas en las medusas, las aletas
-                            de tiburón y el cabello, la tesis doctoral de Bell podría parecer un hito improbable en
-                            biología.
-                            </p>
-                            <p>
-                            Bell, quien nació en 1913 en Londres, formaba parte del creciente número de alumnas que
-                            estudiaban ciencias naturales en el Girton College de la Universidad de Cambridge.
-                            </p>
-                            <p>    
-                            Después de dejar Cambridge en 1936, Bell pasó por primera vez un breve período en Mánchester
-                            con Lawrence Bragg, quien, junto con su padre William, había recibido el Premio Nobel de
-                            Física en 1915.
-                            </p>
-                            <p>
-                            La pareja había demostrado cómo se podían usar los rayos X para revelar la disposición de
-                            los átomos y las moléculas en cristales simples como la sal.
-                            </p>
-                            <p>
-                            En 1937, Bell se trasladó a la Universidad de Leeds para ocupar un puesto como asistente de
-                            investigación con el físico William Astbury, que estaba aplicando los métodos de Bragg al
-                            estudio de la lana y otras fibras biológicas.
-                            </p>
-                            <p>
-                            Los estudios de rayos X de Astbury de las proteínas en las fibras de lana revelaron que su
-                            estructura era como una cadena molecular, o collar, formada al unir sustancias químicas más
-                            pequeñas llamadas aminoácidos.
-                            </p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn boton" data-bs-dismiss="modal">Cerrar</button>
-                        </div>
+                        Con capítulos que describen la estructura de las fibras proteicas en las medusas, las
+                        aletas
+                        de tiburón y el cabello, la tesis doctoral de Bell podría parecer un hito improbable en
+                        biología.
+
+
+                        <strong>Bell, quien nació en 1913 en Londres, formaba parte del creciente número de alumnas que
+                        estudiaban ciencias naturales en el Girton College de la Universidad de Cambridge. </strong>
+
+
+                        Después de dejar Cambridge en 1936, Bell pasó por primera vez un breve período en
+                        Mánchester
+                        con Lawrence Bragg, quien, junto con su padre William, había recibido el Premio Nobel de
+                        Física en 1915.
+
+
+                        La pareja había demostrado cómo se podían usar los rayos X para revelar la disposición
+                        de
+                        los átomos y las moléculas en cristales simples como la sal.
+
+
+                        <strong>En 1937, Bell se trasladó a la Universidad de Leeds para ocupar un puesto como asistente
+                        de
+                        investigación con el físico William Astbury, que estaba aplicando los métodos de Bragg
+                        al
+                        estudio de la lana y otras fibras biológicas.
+
+                        Los estudios de rayos X de Astbury de las proteínas en las fibras de lana revelaron que
+                        su
+                        estructura era como una cadena molecular, o collar, formada al unir sustancias químicas
+                        más
+                        pequeñas llamadas aminoácidos. </strong>
+
                     </div>
                 </div>
             </div>
+
         </div>
     </main>
     <footer>
